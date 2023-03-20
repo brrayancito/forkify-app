@@ -3,12 +3,6 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
 
-  /**
-   *Render the received object to the DOM
-   * @param {object | object[]} data The data to be rendered (e.g recipe)
-   * @returns Nothing
-   * @this {Object} View instance
-   */
   render(data) {
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
