@@ -102,6 +102,6 @@ export default class View {
   }
 
   _clear() {
-    this._parentElement.innerHTML = 'h';
+    this._parentElement.innerHTML = '';
   }
 }
