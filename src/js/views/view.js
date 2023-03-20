@@ -101,7 +101,7 @@ export default class View {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
-  // _clear() {
-  //   this._parentElement.innerHTML = '';
-  // }
+  _clear() {
+    this._parentElement.innerHTML = '';
+  }
 }
